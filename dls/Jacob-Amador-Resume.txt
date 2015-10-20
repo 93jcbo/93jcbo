@@ -1,0 +1,39 @@
+Jacob Amador
+93jcbo@gmail.com
+713-598-9210
+www.93jcbo.com
+
+Summary
+
+A UX Designer with the skills of a Front-End Developer specializing in mobile-first responsive design. I believe in user centered design and putting function over flash. I have strong opinions on design but I will always back them up with user research or empirical data.
+
+Skills
+
+UX Design, Responsive Web Design, Mobile First Design, Wireframing, Cross Browser Testing, Photoshop CS6, Typography, HTML5, CSS3, Twitter Bootstrap, JavaScript, jQuery, AngularJS, JSON, SEO 
+
+Education
+
+Rice University, 2015
+BA in Cognitive Science with concentration in Human-Computer Interaction
+  Relevant Courses: Human Computer Interaction, Methods of Human Computer Interaction, Non-Traditional Interfaces, Engineering Psychology
+
+Experience
+
+Front-End Developer
+First Creative, Nov 2013 to Present
+  Convert site mockups to live HTML, CSS, and Javascript from scratch.
+  Consistantly produce designs and graphics in Photoshop that impress clients.
+  Update client site structure and stylesheets for seamless responsive design.
+  Contribute to design decisions by applying UX principles and modern technology.
+
+Front-End Developer
+93jcbo.com (Personal Project), Nov 2014 to Jan 2015
+  Built portfolio site using HTML5, CSS3, AngularJS and JSON.
+  Optimized site for all screens with responsive web design using Twitter Bootstrap.
+  Used low-fidelity wireframes to reach a minimalist, function-focused design.
+
+Full Stack Developer
+CulturalsBoss (Personal Project), May 2013 to Sep 2013
+  Used Photoshop to create mockups for all website pages.
+  Converted mockups to live HTML, CSS, and PHP code.
+  Designed relational databases in MySQL to populate inner website pages.

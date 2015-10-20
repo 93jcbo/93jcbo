@@ -1,0 +1,34 @@
+<div class="website-container {{website.id}} container">
+    <div class="row">
+        <div class="col-lg-7 col-sm-7 col-sm-push-5">
+            <header class="website-header">
+                <h1 ng-bind-html="website.name"></h1>
+                <h5>{{website.client}}</h5>
+                <h5>{{website.skills}}</h5>
+            </header>
+
+            <div class="website-details">
+                <div class="">
+                    <p ng-repeat="paragraph in website.description" ng-bind-html="paragraph | trustHTML"></p>
+                </div>
+            </div>
+
+            <div class="container view-live-site" ng-show="website.status == 'live'">
+                <a class="btn-lg btn-default btn view-site-btn" ng-href="{{website.link}}" title="{{website.name}}" target="_blank">Visit Live Website</a>
+            </div>
+        </div>
+        <div class="col-lg-5 col-sm-5 col-sm-pull-7">
+            <div class="image-section  ps-gallery">
+                <figure ng-repeat="image in website.images" on-finish class="portfolio-figure">
+                    <a ng-href="{{image.src}}" class="thumbnail" data-height="{{image.height}}" data-width="{{image.width}}" >
+                        <img ng-src="{{image.thumb}}" alt="{{image.alt}}" class="website-image img-responsive" ng-if="!$first">
+                        <img ng-src="{{image.src}}" alt="{{image.alt}}" class="website-image img-responsive" ng-if="$first">
+                    </a>
+                    <figcaption>
+                        {{image.caption}}
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</div>

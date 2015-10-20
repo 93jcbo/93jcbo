@@ -1,0 +1,271 @@
+[
+	{
+		"id":"shopcart",
+		"url":"self-checkout-shopping-cart",
+		"name":"Self-Checkout Shopping&nbsp;Cart",
+		"status":"retired",
+		"client":"Academic Project",
+		"skills":"Research Methods, Prototype Design, Interface Design",
+		"logo":"img/webwork/logo/cart.jpg",
+        "smlogo":"img/webwork/logo/small-cart.jpg",
+		"images":[
+      		{
+				"height":464,
+				"width":600,
+				"src":"img/hci/cart-drawing.jpg",
+				"thumb":"img/hci/cart-drawing_thumb.jpg",
+				"alt":"Cart Design",
+				"caption":"Red shows weight scales. Yellow are notification lights. Blue is the scanner holster."
+      		},
+			{
+				"height":542,
+				"width":900,
+				"src":"img/hci/cart-observations.png",
+				"thumb":"img/hci/cart-observations_thumb.jpg",
+				"alt":"User Observation Form",
+                "caption":"Forms used by our team to collect observational data."
+			},
+			{
+				"height":786,
+				"width":1013,
+				"src":"img/hci/cart-checkout-flow.png",
+				"thumb":"img/hci/cart-checkout-flow_thumb.jpg",
+				"alt":"Flow of the Checkout Process",
+        		"caption":"Most people follow a (Scan, Bag) then Payment flow."
+			},
+			{
+				"height":924,
+				"width":725,
+				"src":"img/hci/cart-proto1.jpg",
+				"thumb":"img/hci/cart-proto1_thumb.jpg",
+				"alt":"Remote-Scanner Wireframe",
+				"caption":"Potential scanner design that resembled Wii Remote."
+			},
+			{
+				"height":989,
+				"width":725,
+				"src":"img/hci/cart-proto2.jpg",
+				"thumb":"img/hci/cart-proto2_thumb.jpg",
+				"alt":"Gun-Scanner Wireframe",
+				"caption":"Our scanner prototype followed this design and included a dummy screen."
+			},
+			{
+				"height":730,
+				"width":933,
+				"src":"img/hci/cart-cogtool.png",
+				"thumb":"img/hci/cart-cogtool_thumb.jpg",
+				"alt":"Design in CogTool",
+				"caption":"Our complete interface was mapped out to simulate and evaluate human performance."
+			 }
+		],
+		"description":[
+			"My team was charged with creating a one-stop shopping cart system. The idea was to optimize the user's time in a grocery store by providing a shopping cart that allowed users to collect, pay for, and bag their groceries without the need to stand in line.",
+			"We began with a Similar Systems Analysis to find products we could potentially build on and improve. Once we understood the self-checkout market we decided to do our own user research. Since we didn't have time to interview people, we performed guerrilla research at local grocery stores. We observed users of the current self-checkout systems and looked at the flow pattern, the choke points, and activity count of each user.",
+			"An Activity Analysis showed that users spent the most time scanning and bagging items. A Pareto Analysis correspondingly showed that the top 20% of errors with the systems in place were related to scanning. Therefore, we focused most on the activities of scanning and bagging to merge them seamlessly in our system. This meant finding ways to handle special cases such as alcohol and produce purchases and loss prevention.",
+			"We designed the cart keeping in mind it followed certain rules we set out beforehand. We also designed a low-fidelity prototype scanner users would scan their items with. The scanners were shaped like a gun for easy aiming and had a big screen for the system interface.",
+			"Our interface followed a flow similar to current checkout systems: Welcome screens, Scan and Bag screens, Error or Alert screens as needed, and Payment screens. By allowing users to scan and bag items as they walk around the store we remove the bottleneck at the end of the shopping experience.",
+			"To evaluate our interface we used CogTool, a user interface prototyping tool that uses a human performance model to evaluate interface designs. From CogTool we learned that users could spend as much as 30 seconds on input screens, so some type of user database could decrease input times. To evaluate the overall system fellow classmates assisted us by participating in our Systems Usability Scale survey. Our initial SUS score of 76 placed our interface in the \"Acceptable\" range.",
+			"Although we did not have time to perform another iteration of our design, we were confident in our ability to improve our system thanks to the user feedback and our own evaluations of the system."
+		]
+	},
+	{
+		"id":"maproom",
+		"url":"mapping-a-room",
+		"name":"Mapping a Room",
+		"status":"retired",
+		"client":"Academic Project",
+		"skills":"Prototype Design, Interface Design",
+		"logo":"img/webwork/logo/maproom.jpg",
+        "smlogo":"img/webwork/logo/small-maproom.jpg",
+		"images":[
+			{
+				"height":811,
+				"width":608,
+				"src":"img/hci/map-transmitter.jpg",
+				"thumb":"img/hci/map-transmitter_thumb.jpg",
+				"alt":"Audio Transmitter",
+				"caption":"This is how we imagined our audio transmitter would be able to move along the X and Y."
+			},
+			{
+				"height":577,
+				"width":800,
+				"src":"img/hci/map-scanning.jpg",
+				"thumb":"img/hci/map-scanning_thumb.jpg",
+				"alt":"Spiral scanning vs Coordinate scanning",
+				"caption":"Transmitting sound waves in spirals allow us to receive denser data."
+			},
+			{
+				"height":739,
+				"width":839,
+				"src":"img/hci/map-gestures.jpg",
+				"thumb":"img/hci/map-gestures_thumb.jpg",
+				"alt":"Multi-touch gesture controls",
+				"caption":"Gesture diagrams and their function in our interface."
+			},
+			{
+				"height":411,
+				"width":807,
+				"src":"img/hci/map-interface1.jpg",
+				"thumb":"img/hci/map-interface1_thumb.jpg",
+				"alt":"Sample interface part 1",
+				"caption":"A simulation of how a user would perform a new scan."
+			},
+			{
+				"height":412,
+				"width":806,
+				"src":"img/hci/map-interface2.jpg",
+				"thumb":"img/hci/map-interface2_thumb.jpg",
+				"alt":"Sample interface part 2",
+				"caption":"A simulation of a user enhancing a scan and saving the results."
+			}
+		],
+		"description":[
+			"Shell Oil presented my group with an Acoustic Mapping Project which served as an analogue for Shell's use of echograms to look for oil pockets in the earth.",
+			"The goal was to design an interface that would be used on a hypothetical device to map a dark room using a sound emitter and a wall of microphones. The device could move along the fourth wall but could not enter the room. The interface controlled the device and displayed the mapped results of the objects in the room. After learning more about what the Shell Oil representatives were looking for we got right to work.",
+			"Our first step was to research sound waves and echolocation so that we knew what type of input we would be receiving. We found three sound wave data points and their significance to our system. Sound pitch would tell us the distance (<i>z</i> axis) of an object from our device. Sound intensity would inform us of the size and density of the object. Lastly, the time difference for same sound wave to hit two different speakers would determine an object's position along the <i>x-y</i> axes.",
+			"To display the rendering we knew we would need a 3D model. We initially thought of using a Head Mounted Display and a moving platform for a virtual interface in which the user could walk into the room model. However, this method would not work well with Shell's imaging analogue. Inspired by Google Earth we decided to design a multi-touch gesture interface to display our interactive 3D model. Like Google Earth, users could zoom, rotate, tilt, and pan through the model. Tapping was used to select buttons and a tap-and-hold was used to activate the sound emitter.",
+			"The device itself consisted of a sound emitter that sat on top of a small scissor lift. The left could be moved along the wall and up and down. This allowed us to map the room from all angles. When activated, the emitter focused sound waves in a spiral pattern inside a square foot quadrant.",
+			"Our interface design allowed the device controls and rendering to be displayed in the same place. The multi-touch controls meant the user could view it on a tablet or even a phone with the device's app."
+		]
+	},
+	{
+		"id":"jcbo",
+		"url":"93jcbo",
+		"name":"93JCBO Redesign",
+		"status":"retired",
+		"client":"Personal Project",
+		"skills":"Axure, UI Design, Bootstrap, AngularJS, Javascript, JSON, HTML5, CSS3",
+		"logo":"img/webwork/logo/jcbo.jpg",
+        "smlogo":"img/webwork/logo/small-jcbo.jpg",
+		"images":[
+			{
+				"height":672,
+                "width":1200,
+				"src":"img/hci/jcbo-axure.jpg",
+				"thumb":"img/hci/jcbo-axure_thumb.jpg",
+				"alt":"93JCBO Axure Project",
+				"caption":"Axure let me visualize page elements before the design was finalized."
+			},
+			{
+				"height":1450,
+				"width":1072,
+				"src":"img/hci/jcbo-footer.png",
+				"thumb":"img/hci/jcbo-footer_thumb.jpg",
+				"alt":"Old 93JCBO Footer Area",
+				"caption":"Full size images and project links were ignored because of their location."
+			},
+			{
+				"height":1450,
+				"width":1072,
+				"src":"img/hci/jcbo-header.png",
+				"thumb":"img/hci/jcbo-header_thumb.jpg",
+				"alt":"Old 93JCBO Header Area",
+				"caption":"Light font weight caused reading trouble. Content was also lacking in information."
+			}
+		],
+		"description":[
+      		"When I observed people use the old site I noticed they rarely scrolled to the bottom of the page. This meant they didn't see all the images or the project links. The current design displays more useful information and links above the fold.",
+			"I used hand-drawn wireframes which I then converted to Axure prototypes to finalize the design. I added animations on hover and click events and a lightbox for better image viewing.",
+			"This site is built with AngularJS and Twitter Bootstrap."
+		]
+	},
+	{
+		"id":"cboss",
+		"url":"culturals-boss",
+		"name":"Culturals Boss",
+		"status":"retired",
+		"client":"Personal Project",
+		"skills":"Visual Design, PHP, MySQL, HTML, CSS, Photoshop",
+		"logo":"img/webwork/logo/cboss.jpg",
+		"smlogo":"img/webwork/logo/small-cboss.jpg",
+		"images":[
+			{
+				"height":1450,
+				"width":1072,
+				"src":"img/webwork/cboss-home.png",
+				"thumb":"img/webwork/cboss-home_thumb.jpg",
+				"alt":"Culturals Boss Home Page",
+				"caption":"The CulturalsBoss home page immediately declares its purpose: Houston, Texas."
+			},
+			{
+				"height":1177,
+				"width":1072,
+				"src":"img/webwork/cboss-interior.png",
+				"thumb":"img/webwork/cboss-interior_thumb.jpg",
+				"alt":"Culturals Boss Reviews Page",
+				"caption":"An example of a destination review page showing that walking is the best way to reach Coffeehouse."
+			},
+			{
+				"height":1396,
+				"width":1072,
+				"src":"img/webwork/cboss-about.png",
+				"thumb":"img/webwork/cboss-about_thumb.jpg",
+				"alt":"Culturals Boss About Page",
+				"caption":"The about page featured the mission statement and stylish contact form."
+			}
+		],
+		"description":[
+			"Rice University students rarely go out and explore Houston. I made CulturalsBoss to help Rice students learn and discover new cultural spots in Houston by reading destination reviews written by other Rice students. The site featured reviews for Art, Food, Bars, and Events.",
+			"To complete this project I learned how to use PHP and MySQL to build a custom Content Management System. The front-end was built with pure HTML and CSS plus jQuery to pull pictures from the Instagram API. I took photos of Houston and edited them in Photoshop and Illustrator to create graphics for the site.",
+			"Originally the destination pages displayed reviews of the location or event, address, hours, dates, and a website. When I surveyed Rice students about exploring Houston, most showed a concern about not knowing how to get to their destination. To address the transportation issue I included icons to show the user the best way to reach their destination: a person for walking, a train for the light-rail, and a car for driving."
+		]
+	},
+	{
+		"id":"first",
+		"url":"first-creative",
+		"name":"First Creative",
+		"status":"retired",
+		"client":"Contract Projects",
+		"skills":"UI Design, Javascript, jQuery, HTML, CSS, WordPress",
+		"logo":"img/webwork/logo/first.jpg",
+        "smlogo":"img/webwork/logo/small-first.jpg",
+		"images":[
+			{
+				"height":1396,
+                "width":1072,
+				"src":"img/webwork/vci-blank-form.png",
+				"thumb":"img/webwork/vci-blank-form_thumb.jpg",
+				"alt":"VCI Blank Order Form",
+				"caption":"Bulk order form designed for Viking Craft Ice."
+			},
+			{
+				"height":1396,
+				"width":1072,
+				"src":"img/webwork/vci-error-form.png",
+				"thumb":"img/webwork/vci-error-form_thumb.jpg",
+				"alt":"VCI order form with input",
+				"caption":"Item and Total prices updated after user input. Quantity was validated before the price updated."
+			},
+			{
+				"height":1396,
+				"width":1072,
+				"src":"img/webwork/vci-hlight-form.png",
+				"thumb":"img/webwork/vci-hlight-form_thumb.jpg",
+				"alt":"VCI Order Form Product Highlighting",
+				"caption":"Specific items were highlighted if the users wanted a specific item from the product page."
+			},
+			{
+				"height":1210,
+				"width":1072,
+				"src":"img/webwork/hosh-vid-library.png",
+				"thumb":"img/webwork/hosh-vid-library_thumb.jpg",
+				"alt":"HOSH Complete Video Library",
+				"caption":"Videos were filtered by body part and doctor."
+			},
+			{
+				"height":1156,
+				"width":1072,
+				"src":"img/webwork/hosp-doc-vids.png",
+				"thumb":"img/webwork/hosp-doc-vids_thumb.jpg",
+				"alt":"Doctor Video Library Page",
+				"caption":"On their personal page, doctor videos were filtered by topic."
+			}
+		],
+		"description":[
+			"I do a lot of front-end development for First Creative, a web marketing agency. Most of the time I'm working off of other people's designs and client requirements, but once in a while I get projects where I have complete leeway on the interaction design.",
+			"<a href=\"http://www.vikingcraftice.com/bulk-order-form\" target=\"_blank\">Viking Craft Ice</a>, for example, needed a custom bulk order form. Because quantities and prices varied for their products, I decided to add a column for total price. I used jQuery to instantly update prices and to validate the minimum item quantities.",
+			"My favorite project was for Houston Orthopedic &amp; Spine Hospital. They wanted their collection of 150+ videos to be pulled from YouTube and displayed on their site. No user would be likely to scroll through all those videos to find the right one. Filtering videos was a clear necessity.",
+			"I used JavaScript to pull the videos from the YouTube API and to build the video library before it loaded in the page. Using the <a href=\"http://isotope.metafizzy.co/\" target=\"_blank\">Isotope plugin</a> I created an animated masonry layout with filter support. Filtering allowed user to narrow down their videos choices from 150 to 10."
+		]
+	}
+]

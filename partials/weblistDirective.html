@@ -1,0 +1,16 @@
+<ul class="website-list">
+    <li ng-repeat="website in websites" class="website-box smwb animate-fade" ng-if="'webwork.website'|isState">
+        <a ui-sref="webwork.website({siteID: website.url})" ui-sref-active="active-website" class="website-link thumb-container" ng-click="hideIntro()">
+            <img ng-src="{{website.smlogo}}" class="web-thumbnail" alt="{{website.name}}" />
+            <div class="thumb-cover" ng-bind-html="website.name">
+            </div>
+        </a>
+    </li>
+    <li ng-repeat="website in websites" class="website-box animate-fade" ng-if="'webwork'|isState">
+        <a ui-sref="webwork.website({siteID: website.url})" ui-sref-active="active-website" class="website-link thumb-container" ng-click="hideIntro()" >
+            <img ng-src="{{website.logo}}" class="web-thumbnail" alt="{{website.name}}" />
+            <div class="thumb-cover" ng-bind-html="website.name">
+            </div>
+        </a>
+    </li>
+</ul>

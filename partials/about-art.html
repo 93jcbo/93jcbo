@@ -1,0 +1,26 @@
+<div class="col-xs-4 col-md-5">
+    <hr class="head-divider divider-left">
+</div>
+<div class="col-xs-4 col-md-2 jacob-head">
+    <img src="/img/dead.svg" class="other-head">
+</div>
+<div class="col-xs-4 col-md-5">
+    <hr class="head-divider divider-right">
+</div>
+<div class="col-xs-12 col-md-10 col-lg-8 col-xl-8">
+    <h2 class="">ALWAYS CREATING</h2>
+    <p class="subtitle">I like to make art. This is how I keep my creative juices flowing. Check out some of the work I've made in the past here and find more updates on Instagram.</p>
+</div>
+<div class="col-xs-12">
+    <div ng-controller="InstagramCtrl" class=" clearfix insta-gallery ps-gallery">
+        <figure ng-repeat="post in images|limitTo: displayLimit()" class="insta-post" on-finish>
+            <a ng-href="{{post.images.standard_resolution.url}}" data-width="{{post.images.standard_resolution.width}}" data-height="{{post.images.standard_resolution.height}}" class="thumbnail">
+                <img ng-src="{{post.images.low_resolution.url}}" />
+            </a>
+            <figcaption itemprop="caption description">{{post.caption.text|strip93jcbo}}. <a ng-href="{{post.link}}" target="_blank">View&nbsp;on&nbsp;Instagram</a></figcaption>
+        </figure>
+        <!--<a ng-show="moreAvailable()" ng-click="showMore()" href="#" class="show-more">-->
+        <!--Show More-->
+        <!--</a>-->
+    </div>
+</div>

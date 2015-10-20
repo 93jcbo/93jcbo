@@ -1,0 +1,10 @@
+<div class="webwork-container">
+    <div ng-if="('webwork'| isState) || hideDiv " class="animate-if clearfix">
+        <header class="webwork-header">
+            <h1 class="portfolio-heading">Portfolio</h1>
+            <p class="lead-heading">Selected interaction design projects</p>
+        </header>
+    </div>
+    <div website-list></div>
+    <div class="container-fluid view-window" ui-view autoscroll="false"></div>
+</div>

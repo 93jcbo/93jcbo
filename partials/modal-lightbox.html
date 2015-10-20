@@ -1,0 +1,27 @@
+<div class="modal-body badge-card" ng-swipe-left="Lightbox.nextImage()" ng-swipe-right="Lightbox.prevImage()">
+    <!-- navigation -->
+    <div class="lightbox-nav">
+        <!-- close button -->
+        <button class="close" aria-hidden="true" ng-click="$dismiss()"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+
+        <a class="badge-nav btn-xs badge-nav-left" ng-click="Lightbox.prevImage()">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        </a>
+        <a class="badge-nav btn-xs badge-nav-right" ng-click="Lightbox.nextImage()">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        </a>
+    </div>
+    <!-- image -->
+    <div class="lightbox-image-container">
+
+        <!-- image -->
+        <img ng-if="!Lightbox.isVideo(Lightbox.image)" lightbox-src="{{Lightbox.image.image}}" class="badge-img">
+
+        <div class="badge-dialog">
+            <h4 class="badge-name badge-detail">{{Lightbox.image.name.split('Completed ').pop()}}</h4>
+            <h5 class="badge-issuer badge-detail">Issued by: <a ng-href="{{Lightbox.image.criteria}}">{{Lightbox.image.issuer.name}}</a></h5>
+            <p class="badge-description badge-detail">{{Lightbox.image.description}}</p>
+        </div>
+
+    </div>
+</div>

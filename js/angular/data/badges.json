@@ -1,0 +1,190 @@
+{
+  "userId": 188156,
+  "groupId": 65048,
+  "badges": [
+    {
+      "lastValidated": "2015-07-26T01:14:01.000Z",
+      "hostedUrl": "https://www.codeschool.com/users/jcbo/badges/296/assertion",
+      "assertion": {
+        "recipient": "sha256$cd5a494592c1ef81ffb3d2e437fc49e6d09f653d03d5b728c35527d146a8d567",
+        "salt": "0479567c12a733735e5ec811a7d7c1f7",
+        "issued_on": "2014-01-01",
+        "badge": {
+          "version": "0.5.0",
+          "name": "Completed JavaScript Road Trip Part 1",
+          "image": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/296/completed-javascript-road-trip-part-1-b9f5af5196fb596271f7f97b6b477d24.png",
+          "description": "Awarded for the completion of JavaScript Road Trip Part 1",
+          "criteria": "https://www.codeschool.com/users/jcbo/badges/296",
+          "issuer": {
+            "origin": "http://www.codeschool.com",
+            "name": "Code School",
+            "org": null,
+            "contact": null
+          }
+        }
+      },
+      "imageUrl": "https://backpack.openbadges.org/images/badge/688f2f5f45912ece0c5ae419a5eac7b5409f448d03374d55167fe980c54e56e9.png"
+    },
+    {
+      "lastValidated": "2015-07-26T01:14:31.000Z",
+      "hostedUrl": "https://www.codeschool.com/users/jcbo/badges/300/assertion",
+      "assertion": {
+        "recipient": "sha256$03103aa9987c7b4801bc7b9ebab2b8ad1d3c0a52608370812ae459a4c7251ba3",
+        "salt": "1ac5afe77b4b09821729152cfc2bcf13",
+        "issued_on": "2015-07-10",
+        "badge": {
+          "version": "0.5.0",
+          "name": "Completed JavaScript Road Trip Part 2",
+          "image": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/300/completed-javascript-road-trip-part-2-d4fd45ae7ecb6601fe4a0c8d506ca306.png",
+          "description": "Awarded for the completion of JavaScript Road Trip Part 2",
+          "criteria": "https://www.codeschool.com/users/jcbo/badges/300",
+          "issuer": {
+            "origin": "http://www.codeschool.com",
+            "name": "Code School",
+            "org": null,
+            "contact": null
+          }
+        }
+      },
+      "imageUrl": "https://backpack.openbadges.org/images/badge/1d6223eee3fa2624dc132b1cd6b5665a91ebdbb9c58b1566625a4672c5c4ab7c.png"
+    },
+    {
+      "lastValidated": "2015-07-26T01:16:23.000Z",
+      "hostedUrl": "https://www.codeschool.com/users/jcbo/badges/277/assertion",
+      "assertion": {
+        "recipient": "sha256$0756e2ecf341d796a733affd593a00aa318dff6119ae19371f81daa49ffd1208",
+        "salt": "0e40ee59bde77fd61a154a04fb44c4ab",
+        "issued_on": "2014-01-05",
+        "badge": {
+          "version": "0.5.0",
+          "name": "Completed Fundamentals of Design",
+          "image": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/277/completed-fundamentals-of-design-b9f4f4d4ff73f8a9fdff2043a223404e.png",
+          "description": "Awarded for the completion of Fundamentals of Design",
+          "criteria": "https://www.codeschool.com/users/jcbo/badges/277",
+          "issuer": {
+            "origin": "http://www.codeschool.com",
+            "name": "Code School",
+            "org": null,
+            "contact": null
+          }
+        }
+      },
+      "imageUrl": "https://backpack.openbadges.org/images/badge/caeb9ad65f687247c6843d300ab84ddf6ef475369b7ef53ba7cbcf936aa2a2af.png"
+    },
+    {
+      "lastValidated": "2015-07-26T01:16:33.000Z",
+      "hostedUrl": "https://www.codeschool.com/users/jcbo/badges/102/assertion",
+      "assertion": {
+        "recipient": "sha256$d1de8f4edd1b449a07f996cd04b2dd7158abad01d9190199b8c30b66d4a4671f",
+        "salt": "b9b1fd0843b0a02c1abf1d599cffb01d",
+        "issued_on": "2014-01-04",
+        "badge": {
+          "version": "0.5.0",
+          "name": "Completed Journey into Mobile",
+          "image": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/102/completed-journey-into-mobile-9c1cfe569a838cc2acd84afc47712674.png",
+          "description": "Awarded for the completion of Journey into Mobile",
+          "criteria": "https://www.codeschool.com/users/jcbo/badges/102",
+          "issuer": {
+            "origin": "http://www.codeschool.com",
+            "name": "Code School",
+            "org": null,
+            "contact": null
+          }
+        }
+      },
+      "imageUrl": "https://backpack.openbadges.org/images/badge/e3b5594deae06a2d7b66458b573ef289f2d492e7f41fe895d306c646fc7cfa0e.png"
+    },
+    {
+      "lastValidated": "2015-07-26T01:16:46.000Z",
+      "hostedUrl": "https://www.codeschool.com/users/jcbo/badges/315/assertion",
+      "assertion": {
+        "recipient": "sha256$86b20628ed752c23785d36854afa5130f6c654c1da3788eb52b59359e6308d86",
+        "salt": "31f840413da6be6c40c562010d20ddb5",
+        "issued_on": "2013-12-30",
+        "badge": {
+          "version": "0.5.0",
+          "name": "Completed Front-end Formations",
+          "image": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/315/completed-front-end-formations-165329e44a56cd6d401c0c60369d368e.png",
+          "description": "Awarded for the completion of Front-end Formations",
+          "criteria": "https://www.codeschool.com/users/jcbo/badges/315",
+          "issuer": {
+            "origin": "http://www.codeschool.com",
+            "name": "Code School",
+            "org": null,
+            "contact": null
+          }
+        }
+      },
+      "imageUrl": "https://backpack.openbadges.org/images/badge/05fd21f47c5c7b13862ee152d0b8b6be482b8003dbb8779afc0d8b783a08a973.png"
+    },
+    {
+      "lastValidated": "2015-07-26T01:16:57.000Z",
+      "hostedUrl": "https://www.codeschool.com/users/jcbo/badges/191/assertion",
+      "assertion": {
+        "recipient": "sha256$4f0bafbadde227ef3dbeefc5567f25ff71e38204d9db8286526f3e77da1725ef",
+        "salt": "d5d4760ce2d78ab0911486bb804655a9",
+        "issued_on": "2013-12-31",
+        "badge": {
+          "version": "0.5.0",
+          "name": "Completed Try jQuery",
+          "image": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/191/completed-try-jquery-872711eae2fc5024011c64863ae69323.png",
+          "description": "Awarded for the completion of Try jQuery",
+          "criteria": "https://www.codeschool.com/users/jcbo/badges/191",
+          "issuer": {
+            "origin": "http://www.codeschool.com",
+            "name": "Code School",
+            "org": null,
+            "contact": null
+          }
+        }
+      },
+      "imageUrl": "https://backpack.openbadges.org/images/badge/276a07062f3dc6e298879e1972291fccbe1cb3427a1be69c46a9d55ba42815cb.png"
+    },
+    {
+      "lastValidated": "2015-07-26T01:17:08.000Z",
+      "hostedUrl": "https://www.codeschool.com/users/jcbo/badges/392/assertion",
+      "assertion": {
+        "recipient": "sha256$a3f6eaf67bc21b6dbea4451eb9968e7ce22502958070e54953766053b96d3cae",
+        "salt": "e76d1597f167de23bfc277b2bcf9e31c",
+        "issued_on": "2014-11-24",
+        "badge": {
+          "version": "0.5.0",
+          "name": "Completed Shaping up with Angular.js",
+          "image": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/392/completed-shaping-up-with-angular-js-83ceb89bd5255391f25230727ae3f019.png",
+          "description": "Awarded for the completion of Shaping up with Angular.js",
+          "criteria": "https://www.codeschool.com/users/jcbo/badges/392",
+          "issuer": {
+            "origin": "http://www.codeschool.com",
+            "name": "Code School",
+            "org": null,
+            "contact": null
+          }
+        }
+      },
+      "imageUrl": "https://backpack.openbadges.org/images/badge/da395577b318b56b975e344fe9c025b941f4e663c58f4dcce9d150c303020eb0.png"
+    },
+    {
+      "lastValidated": "2015-07-26T01:17:45.000Z",
+      "hostedUrl": "https://www.codeschool.com/users/jcbo/badges/40/assertion",
+      "assertion": {
+        "recipient": "sha256$08b15280d558145db558bf0ed714d80592f9e4dcb3e1b409291b4762b0635e1c",
+        "salt": "a44a57287289a7e9b0ad6b026219fd4b",
+        "issued_on": "2013-12-30",
+        "badge": {
+          "version": "0.5.0",
+          "name": "Completed CSS Cross-Country",
+          "image": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/40/completed-css-cross-country-ec9a9aa14797031680577e7a986bef75.png",
+          "description": "Awarded for the completion of CSS Cross Country",
+          "criteria": "https://www.codeschool.com/users/jcbo/badges/40",
+          "issuer": {
+            "origin": "http://www.codeschool.com",
+            "name": "Code School",
+            "org": null,
+            "contact": null
+          }
+        }
+      },
+      "imageUrl": "https://backpack.openbadges.org/images/badge/5f3cae46332edca9d7059ed0b1e33ba7bccf809528aa709d080ca94ee8d5c35e.png"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+.ar-container{
+    text-align: left;
+    line-height: 1.7em;
+    font-size: 16px;
+    font-weight: 500;
+}
+.ar-container h1,
+.ar-container h2,
+.ar-container h3,
+.ar-container h4,
+.ar-container h5,
+.ar-container h6{
+    margin:20px 0 10px;
+    font-weight: 700;
+}
+.ar-container sup > a{
+    font-weight: 300;
+}
+.byline{
+    font-size: .9em;
+}
+.byline time{
+    font-weight: 300;
+}
